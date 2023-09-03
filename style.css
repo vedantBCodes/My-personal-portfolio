@@ -327,3 +327,11 @@ input[type="submit"]:hover , input[type="reset"]:hover{
     transition: 0.2s;
 
 }
+textarea::placeholder {
+    position: relative;
+    left:50px;
+    top:15px;
+  font-size:30px;
+  opacity: 0.5;
+  color: black;
+}
