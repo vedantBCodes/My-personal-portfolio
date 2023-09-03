@@ -1,0 +1,329 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+#main{
+    background-image: url("homebackgroundphoto.webp");
+    /* background-color: black; */
+    background-repeat: repeat;
+    color:white;
+    /* background-size:cover; */
+}
+nav div a{
+    color:white;
+}
+#main{
+    height:825px;
+}
+nav h1{
+    display: inline;
+}
+#folio{
+    color:red;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    /* margin: 20px; */
+    padding: 20px;
+}
+#port{
+    margin-right: 400px;
+    font-size: 40px;
+    color:yellow;
+    padding:20px;
+    /* margin:10px; */
+    border:3px solid rgb(226, 122, 162);
+    border-radius: 50%;
+    position: relative;
+    right:50px;
+    bottom: 18px;
+}
+a{
+    text-decoration: none;
+}
+nav a:hover{
+    color:red;
+    font-size: 21px;
+    transition: 0.5s;
+}
+main{
+    /* margin-top: 50px; */
+    margin-left: 50px;
+}
+main h1{
+    font-size: 40px;
+    color:aqua
+} 
+main h7{
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+#myPhoto img{
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    width:600px;
+    height:600px;
+    /* margin-right: 100px; */
+    /* margin-top: 100px; */
+    /* padding:0px 100px; */
+}
+#myphoto{
+    background-image: url("photo1.jpeg");
+}
+h3{
+    display: inline;
+}
+#intro{
+    margin-top: 200px;
+    margin-right: 100px;
+    font-size: 30px;
+    /* padding-right:200px;
+    padding-bottom: 10px; */
+    padding-right: 200px;
+}
+#intro h6{
+    transform: rotate(4deg);
+}
+#intro h1{
+    transform: rotate(-2deg);
+}
+#aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(231, 219, 205);
+    padding: 100px 0px;
+}
+
+#aboutmeimage{
+    width:400px;
+}
+#aboutmeimage img{
+    width:400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.848);
+    border-right: 10px solid rgb(55, 47, 163);
+    border-bottom: 10px solid rgb(55, 47, 163);
+}
+#aboutmeinfo {
+    width: 800px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: bisque;
+}
+#aboutmeinfo p{
+   text-indent: 100px;
+   font-size: 25px;
+}
+img{
+    width: 300px;
+    height:350px;
+    border-radius: 50%;
+}
+
+#skills{
+    font-size: 30px;
+    padding:0px 60px;
+    background-color: #cfc5c5;
+}
+#skill1 , #skill2 , #skill3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#skill1 img {
+    width:100px;
+    height: 100px;
+}
+#c, #cpp ,#java {
+    width:400px;
+    padding:15px;
+    background-color: #e5dddd;
+    border-radius:10px;
+}
+#skill2 img {
+    width:100px;
+    height: 100px;
+}
+#html ,#css ,#javascript
+{
+    width:400px;
+    padding:15px;
+    background-color: #e5dddd;
+    border-radius:10px;
+    
+}
+#skill3 img {
+    width:100px;
+    height: 100px;
+}
+#python , #DSA , #oracle{
+    width:400px;
+    padding:15px;
+    background-color: #e5dddd;
+    border-radius:10px;
+}
+/* below 21 lines of Code is copied from somewhere  */
+#c, #cpp ,#java , #html ,#css ,#javascript ,#python , #DSA , #oracle
+{
+    position: relative;
+    z-index: 1;
+}
+#c::before ,#cpp::before  ,#java::before  , #html::before  ,#css::before  ,#javascript::before  ,#python::before , #DSA::before , #oracle::before 
+{
+    content: "";
+    width:5px;
+    height: 100%;
+   background-color:#f7e8e8 ;
+   position: absolute;
+   left:0;
+   top:0;
+   z-index:-1;
+   transition: 0.6s all;
+}
+#c:hover::before, #cpp:hover::before ,#java:hover::before , #html:hover::before ,#css:hover::before ,#javascript:hover::before ,#python:hover::before , #DSA:hover::before , #oracle:hover::before
+{
+    width:100%;
+}
+#atag{ 
+    color:green;
+}
+#atag:hover{ 
+    color:black;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+#flexprojects{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#first , #second ,#third{
+    border:2px solid rgba(0, 0, 0, 0.713);
+    border-radius: 10px;
+    padding:20px;
+    margin:10px 0px;
+}
+#first video{
+    background-color:rgba(255, 255, 255, 0.534);
+    width:850px;
+    height: 450px;
+    border-radius: 30px;
+}
+#second video , #third video {
+    background-color: #dcc3c3d4;
+    width:900px;
+    height: 450px;
+    border-radius: 30px;
+}
+#projects{
+    background-image: url("projectBackgroundimage.jpeg");
+
+    background-repeat:repeat;
+    font-size: 30px;
+    padding:0px 100px;
+    /* background-color: #cdd5ea99; */
+}
+#contactme{
+   background-color: rgba(0, 0, 0, 0.823);
+   color:white;
+    font-size: 30px;
+    padding:0px 100px;
+    height:770px;
+}
+#flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#links  {
+    position: relative;
+    right: 70px;
+    width:650px;
+}
+#contactme img{
+    width:60px;
+    height:60px;
+}
+#loc , #tele , #email{
+    display:flex;
+    flex-direction: row;
+}
+#links {
+    margin-top:100px;
+}
+#form{
+    margin-top: 50px;
+}
+#formouter{
+    position: relative;
+    top:50px;
+    background-color: rgb(134, 209, 209);
+}
+#forminner{
+    padding:50px;
+    background-color: rgb(219, 184, 184);
+    border:2px solid black;
+    border-radius: 20px;
+}
+input{
+    width:200px;
+    height:30px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+textarea{
+    border:2px solid black;
+    border-radius: 10px;
+    width:400px;
+    height:100px
+}
+input [type="submit"]:hover{
+    background-color: aqua;
+    
+}
+#copyright{
+    height: 30px;
+    padding:20px;
+    background-color: rgb(210, 228, 228);
+}
+#copyright > center >h4 > img{
+    width:20px;
+    height: 20px;
+}
+#socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#socialmedia > div > a > img{
+    width:100px;
+    height: 100px;
+}
+#socialmedia > div > a > img:hover{
+    width:105px;
+    height: 105px;
+    transition: 0.5s;
+}
+input[type="submit"] , input[type="reset"]{
+    width:200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(223, 97, 97);
+}
+input[type="submit"]:hover , input[type="reset"]:hover{
+    background-color: rgb(233, 37, 37);;
+    transition: 0.2s;
+
+}
