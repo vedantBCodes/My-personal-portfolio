@@ -69,13 +69,13 @@ main{
     margin-bottom: 100px;
 }
 #myPhoto img{
-    /* border: 2px solid black; */
-    border-radius: 50%;
-    width:600px;
-    height:600px;
-    /* margin-right: 100px; */
-    /* margin-top: 100px; */
-    /* padding:0px 100px; */
+    border-radius: 2%;
+    width:390px;
+    height:450px;
+    transform: rotate(-10.5deg);
+        position: relative;
+        right: 40px;
+        top: 36px;
 }
 #myphoto{
     background-image: url("photo1.jpeg");
