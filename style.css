@@ -84,11 +84,11 @@ h3{
     display: inline;
 }
 #intro{
+    position: relative;
+    right: 70px;
     margin-top: 200px;
     margin-right: 100px;
     font-size: 30px;
-    /* padding-right:200px;
-    padding-bottom: 10px; */
     padding-right: 200px;
 }
 #intro h6{
