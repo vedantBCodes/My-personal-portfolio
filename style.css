@@ -20,7 +20,7 @@ nav h1{
     display: inline;
 }
 #folio{
-    color:red;
+    color:rgb(141, 141, 134);
 }
 nav{
     display: flex;
@@ -33,10 +33,11 @@ nav{
 #port{
     margin-right: 400px;
     font-size: 40px;
+    color:rgb(142, 142, 142);
     color:yellow;
     padding:20px;
     /* margin:10px; */
-    border:3px solid rgb(226, 122, 162);
+    border:3px solid rgb(238, 235, 237);
     border-radius: 50%;
     position: relative;
     right:50px;
