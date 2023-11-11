@@ -403,4 +403,17 @@ textarea::placeholder {
     height: 340px;
     border-radius: 30px;
   }
+#contactme {
+    height: 1270px;
+  }
+  #flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  #socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
 }
