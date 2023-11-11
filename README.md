@@ -9,3 +9,5 @@ So i removed all the videos from the repository and replaced all the videos by t
 I didn't made this portfolio mobile responsive before.
 Now i am using media queries to give responsiveness to the postfolio.
 And just done with adding the media queries for different devices.
+Just noticed this portfolio is responsive for most of the different sized devices but not all (like the device with size more than 1245px).
+But i will be definitely going to work on that in some days .
