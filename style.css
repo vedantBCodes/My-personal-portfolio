@@ -102,10 +102,6 @@ h3{
     background-color: rgb(231, 219, 205);
     padding: 100px 0px;
 }
-
-#aboutmeimage{
-    width:400px;
-}
 #aboutmeimage img{
     width:400px;
     height: 500px;
@@ -365,5 +361,27 @@ textarea::placeholder {
     #port{
         margin-right: 0px;
     }
+    #aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(231, 219, 205);
+    padding: 100px 0px;
+}
+#aboutmeimage {
+    display: flex;
+    justify-content: center;
+}
+#aboutmeimage img{
+    width:450px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.848);
+    border-right: 10px solid rgb(55, 47, 163);
+    border-bottom: 10px solid rgb(55, 47, 163);
+}
+#aboutmeinfo {
+    margin: auto;    /* This will center a div  */
+}
 
 }
